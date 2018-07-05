@@ -1,7 +1,7 @@
 A Minimal RestExpress Server + Mysql Custom Client
 =========================
 
-Uses the template RestExpress project and adds features to query HBase.
+Uses the template RestExpress project and adds features to query MySql.
 
 To run the project:
 	mvn clean package exec:java
