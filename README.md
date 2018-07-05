@@ -6,12 +6,12 @@ Uses the template RestExpress project and adds features to query HBase.
 To run the project:
 	mvn clean package exec:java
 
-To create a project deployable assembly (zip file):
-	mvn clean package -DskipTests
+To create a project deployable assembly (zip file):            
+	mvn clean package            
 	mvn assembly:single
 
-Main - src/main/java/com/kogentix/rest
-Client - src/main/java/com/kogentix/client/
+Main - src/main/java/com/kogentix/rest      
+Client - src/main/java/com/kogentix/client/        
 RestExpress Port - 8081
 
 Sample UI Request GET - localhost:8081/tableName/
